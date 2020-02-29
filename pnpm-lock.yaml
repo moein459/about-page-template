@@ -7,6 +7,7 @@ dependencies:
   '@angular/platform-browser': 9.0.4_28d07c9b5116edc6393b1e53cd5e6cfb
   '@angular/platform-browser-dynamic': 9.0.4_f050544a83f1c8223b84ad40230628d7
   '@angular/router': 9.0.4_cade7e8f08893c23ed1e3fb209097470
+  bootstrap-sass: 3.4.1
   rxjs: 6.5.4
   tslib: 1.11.1
   zone.js: 0.10.2
@@ -1765,6 +1766,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+  /bootstrap-sass/3.4.1:
+    dev: false
+    resolution:
+      integrity: sha512-p5rxsK/IyEDQm2CwiHxxUi0MZZtvVFbhWmyMOt4lLkA4bujDA1TGoKT0i1FKIWiugAdP+kK8T5KMDFIKQCLYIA==
   /brace-expansion/1.1.11:
     dependencies:
       balanced-match: 1.0.0
@@ -8037,6 +8042,7 @@ specifiers:
   '@angular/platform-browser-dynamic': ~9.0.2
   '@angular/router': ~9.0.2
   '@types/node': ^12.11.1
+  bootstrap-sass: ^3.4.1
   rxjs: ~6.5.4
   ts-node: ~8.3.0
   tslib: ^1.10.0
