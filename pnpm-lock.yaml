@@ -11,6 +11,7 @@ dependencies:
   bootstrap: 4.4.1
   rxjs: 6.5.4
   tslib: 1.11.1
+  vazir-font: 23.0.0
   zone.js: 0.10.2
 devDependencies:
   '@angular-devkit/build-angular': 0.900.4_bddc65f84c82fd0b9f1824f3a611526f
@@ -7731,6 +7732,10 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+  /vazir-font/23.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-VtXvOQyIQXyt0oVGc8gfQ8zMHOeW5Uv2X9hGWVROZTZ8O7Lr5WXzmZxUBHsuQfayXw1etPB/aDVBoOTuivk04w==
   /vendors/1.0.4:
     dev: true
     resolution:
@@ -8059,4 +8064,5 @@ specifiers:
   tslib: ^1.10.0
   tslint: ~5.18.0
   typescript: ~3.7.5
+  vazir-font: ^23.0.0
   zone.js: ~0.10.2

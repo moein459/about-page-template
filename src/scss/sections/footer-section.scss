@@ -1,0 +1,19 @@
+footer {
+	display: block;
+	text-align: center;
+	margin-top: 80px;
+
+	ul {
+		margin: 0;
+		padding: 25px 15px 15px 15px;
+		display: inline;
+		background-color: $my_primary_color;
+		border-radius: 15px 15px 0 0;
+	}
+
+	li {
+		display: inline;
+		color: white;
+		margin: 15px;
+	}
+}

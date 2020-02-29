@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+// Fonts
+@import '~vazir-font/dist/font-face.css';
+
+// Common
+@import 'scss/common/core';
+
+// Sections
+@import 'scss/sections/features-section.scss';
+@import 'scss/sections/intro-section.scss';
+@import 'scss/sections/footer-section.scss';

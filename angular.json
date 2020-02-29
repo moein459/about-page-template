@@ -58,9 +58,9 @@
 			  "src/data.json"
             ],
             "styles": [
-			  "src/styles.scss",
 			  {"bundleName": "mdi", "input": "src/scss/libraries/app-mdi.scss"},
-			  {"bundleName": "bootstrap-css", "input": "src/scss/libraries/app-bootstrap.scss"}
+			  {"bundleName": "bootstrap-css", "input": "src/scss/libraries/app-bootstrap.scss"},
+			  "src/styles.scss"
             ],
             "scripts": []
           },

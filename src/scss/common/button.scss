@@ -1,0 +1,21 @@
+.btn-my-primary {
+	background-color: $my_primary_color;
+	color: white;
+	border-radius: 100px;
+	padding: 8px 20px;
+}
+
+.btn-contact {
+	margin: 0 auto;
+	position: relative;
+	top: -115px;
+	box-shadow: 0 10px 25px rgba($color: $my_primary_color, $alpha: .6);
+	transition: .3s ease-out;
+
+	&:hover {
+		color: white;
+		box-shadow: 0 10px 30px rgba($color: $my_primary_color, $alpha: .7);
+		transform: translate(0, -5px);
+		background-color: lighten($color: $my_primary_color, $amount: 5);
+	}
+}
