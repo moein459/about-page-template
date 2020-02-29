@@ -1,0 +1,9 @@
+<section id="features-section">
+	<div class="container">
+		<ul class="feature-items row">
+			<li class="feature-item list-unstyled col-3" *ngFor="let feature of features | async">
+				<app-feature-item [feature]="feature"></app-feature-item>
+			</li>
+		</ul>
+	</div>
+</section>

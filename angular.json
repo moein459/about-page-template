@@ -54,11 +54,13 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+			  "src/assets",
+			  "src/data.json"
             ],
             "styles": [
 			  "src/styles.scss",
-			  {"bundleName": "bootstrap-css", "input": "src/scss/app-bootstrap/app-bootstrap.scss"}
+			  {"bundleName": "mdi", "input": "src/scss/libraries/app-mdi.scss"},
+			  {"bundleName": "bootstrap-css", "input": "src/scss/libraries/app-bootstrap.scss"}
             ],
             "scripts": []
           },

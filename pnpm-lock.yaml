@@ -7,6 +7,7 @@ dependencies:
   '@angular/platform-browser': 9.0.4_28d07c9b5116edc6393b1e53cd5e6cfb
   '@angular/platform-browser-dynamic': 9.0.4_f050544a83f1c8223b84ad40230628d7
   '@angular/router': 9.0.4_cade7e8f08893c23ed1e3fb209097470
+  '@mdi/font': 4.9.95
   bootstrap: 4.4.1
   rxjs: 6.5.4
   tslib: 1.11.1
@@ -1090,6 +1091,10 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
+  /@mdi/font/4.9.95:
+    dev: false
+    resolution:
+      integrity: sha512-m2sbAs+SMwRnWpkMriBxEulwuhmqRyh6X+hdOZlqSxYZUM2C2TaDnQ4gcilzdoAgru2XYnWViZ/xPuSDGgRXVw==
   /@ngtools/webpack/9.0.4_adc300f1f3712ac4d227b05f338da438:
     dependencies:
       '@angular-devkit/core': 9.0.4
@@ -8046,6 +8051,7 @@ specifiers:
   '@angular/platform-browser': ~9.0.2
   '@angular/platform-browser-dynamic': ~9.0.2
   '@angular/router': ~9.0.2
+  '@mdi/font': ^4.9.95
   '@types/node': ^12.11.1
   bootstrap: ^4.4.1
   rxjs: ~6.5.4
