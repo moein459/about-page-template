@@ -1,4 +1,7 @@
-<section id="introSection">
+<section id="introSection" snInViewport 
+	[ngClass]="{'highlight': highlight}"
+	snInViewport 
+	(inViewportChange)="onInViewportChange($event)">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-8">

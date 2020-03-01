@@ -1,5 +1,15 @@
 #introSection {
 
+	transition: .7s ease-out;
+	opacity: 0;
+
+	transform: translate(0, 100px);
+
+	&.highlight {
+		opacity: 1;
+		transform: translate(0, -20px);
+	}
+
 	@include media-breakpoint-down(sm) {
 		margin-top: 20px;
 	}

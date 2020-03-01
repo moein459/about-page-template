@@ -8,6 +8,7 @@ dependencies:
   '@angular/platform-browser-dynamic': 9.0.4_f050544a83f1c8223b84ad40230628d7
   '@angular/router': 9.0.4_cade7e8f08893c23ed1e3fb209097470
   '@mdi/font': 4.9.95
+  '@thisissoon/angular-inviewport': 4.2.2_@angular+core@9.0.4
   bootstrap: 4.4.1
   rxjs: 6.5.4
   tslib: 1.11.1
@@ -1145,6 +1146,18 @@ packages:
       yarn: '>= 1.13.0'
     resolution:
       integrity: sha512-0aR412gvpqm8KlpMn6jcewD9blovnD7fEoyP+yJPU8eYCFE7BIK6kw71ZSE1uG0tbHT8g+WXbfwZNcJyI1HUmg==
+  /@thisissoon/angular-inviewport/4.2.2_@angular+core@9.0.4:
+    dependencies:
+      '@angular/core': 9.0.4_3ee3023564f4243c52c7d9d5ddf9319b
+      tslib: 1.11.1
+    dev: false
+    engines:
+      node: '>= 8.9.0'
+      npm: '>= 5.6.0'
+    peerDependencies:
+      '@angular/core': '>=5.0.0 <9.0.0'
+    resolution:
+      integrity: sha512-7j+xusBDndoTjTtyEmCfRqbqToE2O9GLkVrEV6vW/CbZmIYhO8H6JYMppyslKjukaC+w2xt/LiFcoHPq+B3/bQ==
   /@types/estree/0.0.42:
     dev: true
     resolution:
@@ -8057,6 +8070,7 @@ specifiers:
   '@angular/platform-browser-dynamic': ~9.0.2
   '@angular/router': ~9.0.2
   '@mdi/font': ^4.9.95
+  '@thisissoon/angular-inviewport': ^4.2.2
   '@types/node': ^12.11.1
   bootstrap: ^4.4.1
   rxjs: ~6.5.4
