@@ -1,0 +1,12 @@
+{
+	"features": [
+		{"title": "امنیت بالا", "thumbnailUrl": "./assets/img/amniat.png"},
+		{"title": "سرعت", "thumbnailUrl": "./assets/img/sor'at.png"},
+		{"title": "پشتیبانی", "thumbnailUrl": "./assets/img/poshtibani.png"},
+		{"title": "کیفیت", "thumbnailUrl": "./assets/img/keyfiat.png"},
+		{"title": "شتاب", "thumbnailUrl": "./assets/img/shetab.png"},
+		{"title": "دسترسی کامل", "thumbnailUrl": "./assets/img/dastresi.png"},
+		{"title": "گارانتی", "thumbnailUrl": "./assets/img/certificate.png"},
+		{"title": "آپتایم بالا", "thumbnailUrl": "./assets/img/uptime.png"}
+	]
+}
