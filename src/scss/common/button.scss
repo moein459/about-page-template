@@ -10,7 +10,7 @@
 	position: relative;
 	top: -115px;
 	box-shadow: 0 10px 25px rgba($color: $my_primary_color, $alpha: .6);
-	transition: .3s ease-out transform;
+	transition: .3s ease-out transform, .3s ease-out background-color, .3s ease-out box-shadow;
 	font-weight: bold;
 
 	@include media-breakpoint-down(md) {
