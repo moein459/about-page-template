@@ -1,8 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "cli": {
-    "packageManager": "pnpm"
+    "packageManager": "npm"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -54,13 +54,19 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-			  "src/assets",
-			  "src/data.json"
+              "src/assets",
+              "src/data.json"
             ],
             "styles": [
-			  {"bundleName": "mdi", "input": "src/scss/libraries/app-mdi.scss"},
-			  {"bundleName": "bootstrap-css", "input": "src/scss/libraries/app-bootstrap.scss"},
-			  "src/styles.scss"
+              {
+                "bundleName": "mdi",
+                "input": "src/scss/libraries/app-mdi.scss"
+              },
+              {
+                "bundleName": "bootstrap-css",
+                "input": "src/scss/libraries/app-bootstrap.scss"
+              },
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -111,8 +117,13 @@
           "options": {
             "browserTarget": "giti-gostar-front:build"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "giti-gostar-front"
 }
