@@ -8,6 +8,10 @@ header {
 
 	.header-logo > img {
 		width: 150px;
+
+		@include media-breakpoint-down(sm) {
+			width: 115px;
+		}
 	}
 
 	.header-tel {
@@ -18,10 +22,15 @@ header {
 		}
 
 		a {
+			font-weight: bold;
 			color: white;
 			text-decoration: none;
 			display: block;
 			font-size: .9em; 
+
+			@include media-breakpoint-down(sm) {
+				font-size: .85em; 
+			}
 
 			&:hover {
 				text-decoration: underline;

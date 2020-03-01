@@ -3,6 +3,10 @@ footer {
 	text-align: center;
 	margin-top: 100px;
 
+	@include media-breakpoint-down(sm) {
+		margin-top: 70px;
+	}
+
 	ul {
 		margin: 0;
 		padding: 25px 15px 15px 15px;
@@ -15,5 +19,9 @@ footer {
 		display: inline;
 		color: white;
 		margin: 15px;
+
+		@include media-breakpoint-down(sm) {
+			margin: 9px;
+		}
 	}
 }

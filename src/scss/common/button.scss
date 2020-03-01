@@ -10,8 +10,16 @@
 	position: relative;
 	top: -115px;
 	box-shadow: 0 10px 25px rgba($color: $my_primary_color, $alpha: .6);
-	transition: .3s ease-out;
+	transition: .3s ease-out transform;
 	font-weight: bold;
+
+	@include media-breakpoint-down(md) {
+		top: -60px;
+	}
+
+	@include media-breakpoint-down(sm) {
+		top: -45px;
+	}
 
 	&:hover {
 		color: white;
