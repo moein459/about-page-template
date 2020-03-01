@@ -28,7 +28,7 @@
 
 	img {
 		max-width: 100%;
-		border-radius: 15px;
+		border-radius: $main_radius;
 		box-shadow: 0 5px 10px rgba($color: #000000, $alpha: .2);
 	}
 }
