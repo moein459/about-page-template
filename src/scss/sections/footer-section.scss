@@ -9,19 +9,41 @@ footer {
 
 	ul {
 		margin: 0;
-		padding: 25px 15px 15px 15px;
-		display: inline;
+		padding: 0 10px;
+		display: inline-block;
 		background-color: $my_primary_color;
 		border-radius: $main_radius $main_radius 0 0;
+
+		&:hover > li > a {
+			filter: blur(1px) opacity(.7);
+		}
+
+		@include media-breakpoint-down(sm) {
+			display: block;
+		}
 	}
 
 	li {
-		display: inline;
+		display: inline-block;
 		color: white;
-		margin: 15px;
+		margin: 5px;
+		padding: 7px;
+
+		a {
+			transition: .2s ease-out;
+			color: white;
+			text-decoration: none;
+			padding: 7px;
+
+			&:hover {
+				filter: blur(0px) opacity(1) !important;
+				color: white;
+			}
+		}
 
 		@include media-breakpoint-down(sm) {
-			margin: 9px;
+			margin: 0;
+			padding: 5px;
 		}
 	}
 }

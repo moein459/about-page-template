@@ -32,6 +32,7 @@ header {
 
 	.header-logo > img {
 		width: 150px;
+		padding-right: 10px;
 
 		@include media-breakpoint-down(sm) {
 			width: 115px;
