@@ -4,6 +4,9 @@
 		linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
 		url("./assets/img/BG.jpg") center center;
 
+	background-attachment: fixed;
+	background-position-y: -285px;
+
 	&::before {
 		content: "";
 		position: absolute;

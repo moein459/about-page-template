@@ -7,9 +7,10 @@ import { FeaturesSectionComponent } from './components/_partials/features-sectio
 import { FeatureItemComponent } from './components/_partials/feature-item/feature-item.component';
 import { IntroSectionComponent } from './components/_partials/intro-section/intro-section.component';
 import { FooterSectionComponent } from './components/_partials/footer-section/footer-section.component';
+import { HeaderComponent } from './components/_partials/header/header.component';
 
 @NgModule({
-	declarations: [AboutPageComponent, FeaturesSectionComponent, FeatureItemComponent, IntroSectionComponent, FooterSectionComponent],
+	declarations: [AboutPageComponent, FeaturesSectionComponent, FeatureItemComponent, IntroSectionComponent, FooterSectionComponent, HeaderComponent],
 	imports: [CommonModule, HomeRoutingModule]
 })
 export class HomeModule {}
