@@ -3,8 +3,9 @@
 	min-height: 1000px;
 	background: linear-gradient(rgba(1, 16, 40, 0.3), rgba(1, 16, 40, 0.3)),
 		linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-		url("./assets/img/BG.jpg") center center;
+		url("./assets/img/BG.jpg") center center no-repeat;
 
+	background-size: cover;
 	background-attachment: fixed;
 	background-position-y: -285px;
 
