@@ -25,6 +25,7 @@ header {
 		border-radius: 0 0 $main_radius $main_radius;
 		padding: 5px;
 		background-color: $my_primary_color;
+		box-shadow: 0 2px 5px rgba($color: #000000, $alpha: .125);
 
 		.header-logo > img {
 			padding: 5px;
