@@ -7,7 +7,7 @@
 
 	&.highlight {
 		opacity: 1;
-		transform: translate(0, -20px);
+		transform: translate(0, 0);
 	}
 
 	@include media-breakpoint-down(sm) {
