@@ -19,6 +19,7 @@ export const preloadedAssets: PreloadedAsset[] =
 		{url: './assets/img/poshtibani.png', type: 'image'},
 		{url: './assets/img/sor\'at.png', type: 'image'},
 		{url: './assets/img/uptime.png', type: 'image'},
+		{url: './assets/img/shetab.png', type: 'image'},
 	];
 
 export const preloadImages = () => {
